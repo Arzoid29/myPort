@@ -10,7 +10,7 @@ export default function Resume() {
                             className="h-32 w-32 rounded-full mx-auto "
                             src="https://avatars.githubusercontent.com/u/49158320?v=4" />
                         <div className="mb-12 text-center mt-4 justify-center items-center">
-                            <h1 className="text-2xl  text-gray-800 font-bold">
+                            <h1 className="text-2xl text-blue-600">
                             José David Sánchez Santos
 
                             </h1>
@@ -83,15 +83,15 @@ export default function Resume() {
                 </div>
             </div><div className="md:w-2/3 p-2 w-full">
                     <div className="mx-4 mb-6">
-                        <h1 className="mb-4 text-4xl text-gray-700 font-bold">Summary</h1>
-                        <p className="text-lg">
+                        <h1 className="mb-4 text-4xl  font-bold text-blue-600">Summary</h1>
+                        <p className="text-lg text-gray-800">
                             Enthusiastically explore new technologies for efficiency, always
                             looking for ways to solve the problem as efficiently as possible,
                             giving priority simplicity of code.
                         </p>
                     </div>
                     <div className="mx-4">
-                        <h1 className="mb-4 text-4xl text-gray-700 font-bold">Experience</h1>
+                        <h1 className="mb-4 text-4xl text-blue-600 font-bold">Experience</h1>
                         <ul>
                             <li className="mb-4">
                                 <h2 className="text-2xl font-medium text-gray-800">
@@ -100,7 +100,7 @@ export default function Resume() {
                                 <div className="mt-1">
                                     <div>
                                         <i className="bx bx-buildings" ></i>
-                                        <small className="text-base text-gray-800">
+                                        <small className="text-base text-gray-600">
                                             Intellisys D Corp. (Santiago Rep Dom)
                                         </small>
                                     </div>
@@ -119,7 +119,7 @@ export default function Resume() {
                                 <div className="mt-1">
                                     <div>
                                         <i className="bx bx-buildings" ></i>
-                                        <small className="text-base text-gray-800">
+                                        <small className="text-base text-gray-600">
                                             Freelance
                                         </small>
                                     </div>
@@ -133,70 +133,70 @@ export default function Resume() {
                         </ul>
                     </div>
                     <div className="mx-4">
-                        <h1 className="mb-4 text-4xl text-gray-700 font-bold">Skill</h1>
+                        <h1 className="mb-4 text-4xl text-blue-600 font-bold">Skill</h1>
                         <ul>
                             <li className="mb-6 flex flex-wrap">
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Flask</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Python</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white "
                                 >Code Principles</span>
                                 
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Design Pattern</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >System Analysis</span>
                                 
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >ReactJS</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Tailwind css/Bootstrap</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >JS</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >HTML</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >CSS</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Git and Github</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Strapi</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Mysql</span>
                             </li>
-                            <h1 className="mb-4 text-4xl text-gray-700 font-bold">Soft Skill</h1>
+                            <h1 className="mb-4 text-4xl text-blue-600 font-bold">Soft Skill</h1>
                             <li className="mb-6 flex flex-wrap">
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Leadership</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Open Mind</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Growth mindset </span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Creativity</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg  py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Team Work</span>
                                 <span
-                                    className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                                    className="mr-2 my-1 rounded-full border px-4 text-lg py-2 font-medium bg-gray-400 hover:bg-blue-600 hover:text-white"
                                 >Autonomous</span>
                                 </li>
                         </ul>
