@@ -9,9 +9,9 @@ export default function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route path="https://arzoid29.github.io/" exact={true} component={Home}></Route>
-        <Route path="https://arzoid29.github.io/myPort/resume" exact={true} component={Resume}></Route>
-        <Route path="https://arzoid29.github.io/myPort/education" exact={true} component={Education}></Route>
+        <Route path="/" exact={true} component={Home}></Route>
+        <Route path="/resume" exact={true} component={Resume}></Route>
+        <Route path="/education" exact={true} component={Education}></Route>
       </Switch>
     </Router>
   );

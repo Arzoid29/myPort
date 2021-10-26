@@ -46,7 +46,7 @@ export default function NavBar() {
                           item.current
                             ? "bg-gray-700 text-white hover:bg-blue-600 "
                             : "text-black hover:bg-blue-600 hover:text-white",
-                          "px-3 py-2 rounded-md text-xl font-medium"
+                          "px-3 py-2 rounded-full text-xl font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
