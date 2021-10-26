@@ -3,7 +3,7 @@ import { AcademicCapIcon} from '@heroicons/react/outline';
 
 export default function PerfilSection() {
    return (
-      <div className="bg-white shadow-2xl overflow-hidden sm:rounded-lg max-w-3xl  mx-auto border-blue-600 border-4 mt-14 flex ">
+      <div className="bg-white shadow-2xl overflow-hidden sm:rounded-3xl max-w-3xl  mx-auto border-blue-600 border-4 mt-14 flex ">
          <div className="px-4 py-5 sm:px-6 ">
             <AcademicCapIcon 
                className="rounded-full w-40 mx-auto  text-blue-600 "
@@ -16,8 +16,8 @@ export default function PerfilSection() {
          </div>
          <div className="border-t border-gray-200 ">
             <dl>
-               <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6  ">
-                  <dt className="text-md font-medium text-gray-500">
+               <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                  <dt className="text-md font-medium text-gray-500 ">
                      CEMAS
                   </dt>
 

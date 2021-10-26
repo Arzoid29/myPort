@@ -75,7 +75,7 @@ export default function Resume() {
                     <div className="mx-4 hidden md:block">
                         <a
                             href="mailto:Josedavidsanchezsantos@gmail.com"
-                            className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base"
+                            className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded-full text-base"
                         >
                             Hire me
                         </a>

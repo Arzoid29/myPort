@@ -19,10 +19,10 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className=" max-w-xl mx-auto rounded-full shadow ">
+    <Disclosure as="nav" className=" max-w-xl mx-auto  shadow rounded-3xl ">
       {({ open }) => (
         <>
-          <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8 ">
+          <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8  ">
             <div className="relative flex items-center justify-between h-14 ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -44,7 +44,7 @@ export default function NavBar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-700 text-white hover:bg-blue-600"
+                            ? "bg-gray-700 text-white hover:bg-blue-600 "
                             : "text-black hover:bg-blue-600 hover:text-white",
                           "px-3 py-2 rounded-md text-xl font-medium"
                         )}
@@ -67,8 +67,8 @@ export default function NavBar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-600 text-white hover:bg-gray-800"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      ? "bg-gray-700 text-white hover:bg-blue-700"
+                      : "text-black hover:bg-blue-600 hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
