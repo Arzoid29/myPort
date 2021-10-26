@@ -6,9 +6,9 @@ import { MenuIcon, XIcon,} from "@heroicons/react/outline";
 import Git from "./git";
 import Twitter from "./Twitter";
 const navigation = [
-  { name: "About me", href: "/", current: false },
-  { name: "Resume", href: "resume", current: false },
-  { name: "Education", href: "education", current: false },
+  { name: "About me", href: "https://arzoid29.github.io/", current: false },
+  { name: "Resume", href: "https://arzoid29.github.io/myPort/resume", current: false },
+  { name: "Education", href: "https://arzoid29.github.io/myPort/education", current: false },
   { name: <Git/>, href: "https://github.com/Arzoid29", current: false },
   { name: <Twitter/>, href: "https://twitter.com/Arzoidss", current: false },
 ];
