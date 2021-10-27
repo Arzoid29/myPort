@@ -6,9 +6,9 @@ import { MenuIcon, XIcon,} from "@heroicons/react/outline";
 import Git from "./git";
 import Twitter from "./Twitter";
 const navigation = [
-  { name: "About me", href: "/", current: false },
-  { name: "Resume", href: "/resume", current: false },
-  { name: "Education", href: "/education", current: false },
+  { name: "About me", href: "#Home", current: false },
+  { name: "Resume", href: "#resume", current: false },
+  { name: "Education", href: "#education", current: false },
   { name: <Git/>, href: "https://github.com/Arzoid29", current: false },
   { name: <Twitter/>, href: "https://twitter.com/Arzoidss", current: false },
 ];
@@ -19,14 +19,14 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className=" max-w-xl mx-auto  shadow rounded-3xl ">
+    <Disclosure as="nav" className=" max-w-xl mx-auto  shadow rounded-3xl  fixed bg">
       {({ open }) => (
         <>
           <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8  ">
             <div className="relative flex items-center justify-between h-14 ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md bg-black text-gray-400 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -37,14 +37,14 @@ export default function NavBar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-0">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-700 text-white hover:bg-blue-600 animate-pulse"
+                            ? " text-white hover:bg-blue-600 animate-pulse"
                             : "text-black hover:bg-blue-600 hover:text-white ",
                           "px-3 py-2 rounded-full text-xl font-medium"
                         )}
@@ -67,9 +67,9 @@ export default function NavBar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-700 text-white hover:bg-blue-700"
+                      ? " text-white hover:bg-blue-700"
                       : "text-black hover:bg-blue-600 hover:text-white",
-                    "block px-3 py-2 rounded-md text-base font-medium"
+                    "block px-3 py-2  text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >

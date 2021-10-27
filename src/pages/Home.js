@@ -4,6 +4,7 @@ import logo from "../images/porfile.jpg";
 
 export default function Home() {
   return (
+    <section id="Home">
     <div className=' max-w-xl mx-auto mt-5 rounded-lg'>
       <br />
       <img src={logo} className="rounded-full w-40 mx-auto" />
@@ -20,5 +21,6 @@ export default function Home() {
         
       </p>
     </div>
+    </section>
   );
 }

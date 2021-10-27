@@ -3,20 +3,21 @@ import { AcademicCapIcon} from '@heroicons/react/outline';
 
 export default function PerfilSection() {
    return (
-      <div className="bg-white shadow-2xl overflow-hidden sm:rounded-3xl max-w-3xl  mx-auto border-blue-600 border-4 mt-14 flex ">
+      <section id="education">
+      <div className="bg-gray-200 shadow-2xl overflow-hidden sm:rounded-3xl max-w-3xl  mx-auto  mt-14 flex ">
          <div className="px-4 py-5 sm:px-6 ">
             <AcademicCapIcon 
                className="rounded-full w-40 mx-auto  text-blue-600 "
             />
             <div className="space-x-8 flex justify-center ">
-               <p className="bg-gray-50  text-2xl  hover:text-blue-600 font-semibold capitalize ">
+               <p className="bg-gray-200 text-2xl  hover:text-blue-600 font-semibold capitalize ">
                Academic file
                </p>
             </div>
          </div>
          <div className="border-t border-gray-200 ">
             <dl>
-               <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+               <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 bg-gray-200">
                   <dt className="text-md font-medium text-gray-500 ">
                      CEMAS
                   </dt>
@@ -24,13 +25,13 @@ export default function PerfilSection() {
                   <dd className="mt-1 text-md text-gray-900 sm:mt-0 sm:-span-2">
                      Develop And administrate Software (High School tilte)
                   </dd>
-                  <div className="ml-4 flex-shrink-0 ">
-                     <p className="bg-gray-50  pl-3 ml-auto hover:opacity-50">
+                  <div className="ml-4 flex-shrink-0 bg-gray-200 ">
+                     <p className="  pl-3 ml-auto hover:opacity-50 bg-gray-200">
                         2016-2020
                      </p>
                   </div>
                </div>
-               <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+               <div className="bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                   <dt className="text-md font-medium text-gray-500">
                   Cincinnatus Institute of Craftsmanship
                   </dt>
@@ -38,12 +39,12 @@ export default function PerfilSection() {
                      Software Development Training
                   </dd>
                   <div className="ml-4 flex-shrink-0">
-                     <button className="bg-gray-50  pl-3 ml-auto hover:opacity-50">
+                     <button className="bg-gray-200  pl-3 ml-auto hover:opacity-50">
                         2019-Now
                      </button>
                   </div>
                </div>
-               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+               <div className="bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 ">
                   <dt className="text-md font-medium text-gray-500">
                         Universidad abierta para adultos (Uapa)
                   </dt>
@@ -51,12 +52,12 @@ export default function PerfilSection() {
                      Software Engineer
                   </dd>
                   <div className="ml-4 flex-shrink-0">
-                     <button className="bg-gray-50  pl-3 ml-auto hover:opacity-50">
+                     <button className="  pl-3 ml-auto hover:opacity-50 bg-gray-200">
                         2021-Now
                      </button>
                   </div>
                </div>
-               <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+               <div className=" px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 bg-gray-200">
                   <dt className="text-md font-medium text-gray-500">
                      Platzi
                   </dt>
@@ -64,12 +65,12 @@ export default function PerfilSection() {
                      Some Courses
                   </dd>
                   <div className="ml-4 flex-shrink-0">
-                     <button className="bg-gray-50  pl-3 ml-auto hover:opacity-50">
+                     <button className="  pl-3 ml-auto hover:opacity-50 bg-gray-200">
                         2021-now
                      </button>
                   </div>
                </div>
-               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+               <div className=" px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 bg-gray-200">
                   <dt className="text-md font-medium text-gray-500">
                      Udemy
                   </dt>
@@ -77,13 +78,15 @@ export default function PerfilSection() {
                      Some Courses
                   </dd>
                   <div className="ml-4 flex-shrink-0">
-                     <button className="bg-gray-50  pl-3 ml-auto hover:opacity-50">
+                     <button className="  pl-3 ml-auto hover:opacity-50 bg-gray-200">
                         2019-Now
                      </button>
                   </div>
                </div>
             </dl>
          </div>
+         
       </div>
+      </section>
    );
 }

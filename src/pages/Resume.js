@@ -2,9 +2,10 @@
 import React from 'react'
 export default function Resume() {
     return (
-        <div className="mt-6 max-w-screen-lg md:flex mx-auto">
+        <section id="resume">
+        <div className="mt-6 max-w-screen-lg md:flex mx-auto ">
       <><div className="md:w-1/3 p-2 relative">
-                <div className="md:fixed">
+                <div className="">
                     <div className="md:block">
                         <img
                             className="h-32 w-32 rounded-full mx-auto "
@@ -204,5 +205,6 @@ export default function Resume() {
                     </div>
                 </div></>
     </div>
+    </section>
     )
 }
