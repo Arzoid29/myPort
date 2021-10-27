@@ -1,4 +1,5 @@
 {
+  "homepage": "https://arzoid29.github.io/myPort/",
   "name": "myport",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": " npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^3.2.3",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
