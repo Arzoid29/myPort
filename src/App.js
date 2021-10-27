@@ -10,9 +10,9 @@ export default function App() {
     <HashRouter>
       <NavBar />
       <Switch>
-        <Route path="*/" exact={true} component={Home}></Route>
-        <Route path="*/resume" exact={true} component={Resume}></Route>
-        <Route path="*/education" exact={true} component={Education}></Route>
+        <Route path="/" exact={true} component={Home}></Route>
+        <Route path="/resume" exact={true} component={Resume}></Route>
+        <Route path="/education" exact={true} component={Education}></Route>
       </Switch>
     </HashRouter>
   );
