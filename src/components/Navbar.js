@@ -7,8 +7,8 @@ import Git from "./git";
 import Twitter from "./Twitter";
 const navigation = [
   { name: "About me", href: "/", current: false },
-  { name: "Resume", href: "resume", current: false },
-  { name: "Education", href: "education", current: false },
+  { name: "Resume", href: "/resume", current: false },
+  { name: "Education", href: "/education", current: false },
   { name: <Git/>, href: "https://github.com/Arzoid29", current: false },
   { name: <Twitter/>, href: "https://twitter.com/Arzoidss", current: false },
 ];
@@ -44,9 +44,9 @@ export default function NavBar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-700 text-white hover:bg-blue-600 "
-                            : "text-black hover:bg-blue-600 hover:text-white",
-                          "px-3 py-2 rounded-md text-xl font-medium"
+                            ? "bg-gray-700 text-white hover:bg-blue-600 animate-pulse"
+                            : "text-black hover:bg-blue-600 hover:text-white ",
+                          "px-3 py-2 rounded-full text-xl font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
