@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/myPort/static/css/main.4d4374d2.chunk.css",
-    "main.js": "/myPort/static/js/main.afa04176.chunk.js",
-    "main.js.map": "/myPort/static/js/main.afa04176.chunk.js.map",
+    "main.css": "/myPort/static/css/main.00e1ed02.chunk.css",
+    "main.js": "/myPort/static/js/main.e3a298b0.chunk.js",
+    "main.js.map": "/myPort/static/js/main.e3a298b0.chunk.js.map",
     "runtime-main.js": "/myPort/static/js/runtime-main.41db8d0b.js",
     "runtime-main.js.map": "/myPort/static/js/runtime-main.41db8d0b.js.map",
     "static/js/2.6de319af.chunk.js": "/myPort/static/js/2.6de319af.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.68330408.chunk.js": "/myPort/static/js/3.68330408.chunk.js",
     "static/js/3.68330408.chunk.js.map": "/myPort/static/js/3.68330408.chunk.js.map",
     "index.html": "/myPort/index.html",
-    "static/css/main.4d4374d2.chunk.css.map": "/myPort/static/css/main.4d4374d2.chunk.css.map",
+    "static/css/main.00e1ed02.chunk.css.map": "/myPort/static/css/main.00e1ed02.chunk.css.map",
     "static/js/2.6de319af.chunk.js.LICENSE.txt": "/myPort/static/js/2.6de319af.chunk.js.LICENSE.txt",
     "static/media/porfile.71e76ac3.jpg": "/myPort/static/media/porfile.71e76ac3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.41db8d0b.js",
     "static/js/2.6de319af.chunk.js",
-    "static/css/main.4d4374d2.chunk.css",
-    "static/js/main.afa04176.chunk.js"
+    "static/css/main.00e1ed02.chunk.css",
+    "static/js/main.e3a298b0.chunk.js"
   ]
 }
