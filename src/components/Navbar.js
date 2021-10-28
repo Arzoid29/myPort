@@ -6,9 +6,9 @@ import { MenuIcon, XIcon,} from "@heroicons/react/outline";
 import Git from "./git";
 import Twitter from "./Twitter";
 const navigation = [
-  { name: "About me", href: "#Home", current: false },
-  { name: "Resume", href: "#resume", current: false },
-  { name: "Education", href: "#education", current: false },
+  { name: "About me", href: "/", current: false },
+  { name: "Resume", href: "/resume", current: false },
+  { name: "Education", href: "/education", current: false },
   { name: <Git/>, href: "https://github.com/Arzoid29", current: false },
   { name: <Twitter/>, href: "https://twitter.com/Arzoidss", current: false },
 ];
@@ -19,14 +19,14 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className=" max-w-xl mx-auto  shadow rounded-3xl  fixed bg">
+    <Disclosure as="nav" className=" mx-auto   shadow rounded-3xl  sticky top-0 bg-gray-200">
       {({ open }) => (
         <>
           <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8  ">
             <div className="relative flex items-center justify-between h-14 ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md bg-black text-gray-400 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-full text-gray-500 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -67,8 +67,8 @@ export default function NavBar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? " text-white hover:bg-blue-700"
-                      : "text-black hover:bg-blue-600 hover:text-white",
+                      ? " text-white hover:bg-blue-700 rounded-full"
+                      : "text-black hover:bg-blue-600 hover:text-white rounded-full",
                     "block px-3 py-2  text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <section id="resume">
         <div className="mt-6 max-w-screen-lg md:flex mx-auto ">
-      <><div className="md:w-1/3 p-2 relative">
+      <><div className="md:w-1/3 p-2">
                 <div className="">
                     <div className="md:block">
                         <img
