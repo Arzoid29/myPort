@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4">
-                      <a href="/" class="px-4 text-sm hover:text-blue-600 ">Home</a>
+                      <a href="/#Home" class="px-4 text-sm hover:text-blue-600 ">Home</a>
                       <a href="/resume" class="px-4 text-sm hover:text-blue-600 ">Resume</a>
                       <a href="/education" class="px-4 text-sm hover:text-blue-600 ">Education</a>
                       <a href="https://github.com/Arzoid29" class=" hover:text-blue-600 px-4 text-sm">Git</a>
